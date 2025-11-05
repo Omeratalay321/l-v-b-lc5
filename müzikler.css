@@ -1,0 +1,34 @@
+/* CSS Başlangıcı: Sitenin daha iyi görünmesi için basit stil */
+body {
+    font-family: Arial, sans-serif; /* Yazı tipi */
+    background-color: #121212; /* Koyu arka plan (Neredeyse siyah) */
+    color: #ffffff; /* Beyaz yazı rengi */
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #1DB954; /* Spotify Yeşili gibi dikkat çekici bir renk */
+    text-align: center; /* Başlığı ortala */
+    margin-bottom: 40px;
+}
+.muzik-kutu {
+    background-color: #1E1E1E; /* Müzik kutusu için hafif koyu renk */
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 8px; /* Köşeleri yuvarla */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Hafif gölge efekti */
+}
+.sarki-adi {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #333; /* Şarkı adının altına ince çizgi */
+    padding-bottom: 5px;
+}
+/* YouTube Embed (iframe) stilini düzenleme */
+iframe {
+    width: 100%; /* Ekran genişliğinin tamamını kapla */
+    height: 315px; /* Standart YouTube player yüksekliği */
+    border: none;
+    border-radius: 6px;
+}
